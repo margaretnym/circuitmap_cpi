@@ -1,0 +1,116 @@
+
+/* Circuit Map CSS */
+
+.state {
+  fill: grey;
+  opacity: 0.7;
+}
+
+.state-boundary {
+  fill: none;
+  stroke: #fff;
+}
+
+.circuit-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.2px;
+}
+
+.state.selected {
+  fill: orange;
+  stroke: #fff;
+  stroke-opacity: .95;
+  stroke-width: .5px;
+}
+
+.state.selected-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-opacity: .95;
+  stroke-width: .5px;
+  pointer-events: none;
+}
+
+.place-label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: white;
+  fill-opacity: .8;
+  text-anchor: middle;
+  position:relative;
+  font-size: 12px;
+}
+
+.dot {
+  fill: black;
+  fill-opacity: 0.8;
+  stroke: #fff;
+  stroke-opacity:.5;
+}
+
+.circuitno {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: white;
+  font-size: 14px;
+  font-weight:bold;
+}
+
+.label-value {
+    font-family: 'Segoe UI Semibold', 'Helvetica Neue Medium', 'Segoe UI', 'Helvetica Neue', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #43474b;
+}
+
+.label-value-nojudges {
+    font-family: 'Segoe UI Semibold', 'Helvetica Neue Medium', 'Segoe UI', 'Helvetica Neue', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #363e5b;
+}
+
+.label-text {
+    font-size: 20px;
+    font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', Helvetica, 'Trebuchet MS', 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-weight: 800;
+    text-decoration:none;
+}
+
+.list {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:10px; 
+  color:black; 
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+
+.notes {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+    font-size: 11px;
+}
